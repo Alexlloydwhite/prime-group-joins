@@ -26,4 +26,7 @@
 7. How many products do we carry?
 -- SELECT COUNT(*) FROM products;
 8. What is the total available on-hand quantity of diet pepsi?
-
+-- SELECT COUNT(*), p.description FROM warehouse_product wp
+-- JOIN products p ON wp.product_id = p.id
+-- WHERE p.description = 'diet pepsi'
+-- GROUP BY p.description;

@@ -22,6 +22,7 @@
 -- GROUP BY c.first_name, c.last_name
 -- ORDER BY count DESC;
 6. How many customers do we have?
+-- SELECT COUNT(*) FROM customers;
 7. How many products do we carry?
 8. What is the total available on-hand quantity of diet pepsi?
 

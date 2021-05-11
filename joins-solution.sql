@@ -3,6 +3,8 @@
 -- SELECT * FROM customers c
 -- JOIN addresses a ON c.id = a.customer_id;
 2. Get all orders and their line items (orders, quantity and product).
+--SELECT * FROM orders o
+--JOIN line_items li ON o.id = li.order_id;
 3. Which warehouses have cheetos?
 4. Which warehouses have diet pepsi?
 5. Get the number of orders for each customer. NOTE: It is OK if those without orders are not included in results.

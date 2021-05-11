@@ -6,6 +6,10 @@
 --SELECT * FROM orders o
 --JOIN line_items li ON o.id = li.order_id;
 3. Which warehouses have cheetos?
+-- SELECT p.description, w.warehouse FROM warehouse w
+-- JOIN warehouse_product wp ON w.id = wp.warehouse_id
+-- JOIN products p ON p.id = wp.product_id
+-- WHERE p.description = 'cheetos';
 4. Which warehouses have diet pepsi?
 5. Get the number of orders for each customer. NOTE: It is OK if those without orders are not included in results.
 6. How many customers do we have?
